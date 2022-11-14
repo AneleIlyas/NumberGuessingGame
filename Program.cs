@@ -41,7 +41,7 @@ namespace NumberGuessingGame
                 catch (Exception ex) 
                 {
                     Console.WriteLine(ex.Message);
-                    Console.WriteLine("Try another guess. 0 to quit.");
+                    Console.WriteLine("Try another guess. Enter '0' to quit.");
                     continue;
                 }
             }
